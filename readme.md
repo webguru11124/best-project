@@ -1,3 +1,5 @@
+*This is my work from Wes Bos's Advanced React course! See below for course details.*
+
 ![Advanced React & GraphQL](https://advancedreact.com/images/ARG/arg-facebook-share.png)
 
 # Advanced React & GraphQL
@@ -12,4 +14,3 @@ The best place to get help is in the #advanced-react slack room - there is a lin
 
 **Q:** Which Extensions for VS Code is Wes using?  
 **A:** All my extensions are listed on [my dotfiles repo](https://github.com/wesbos/dotfiles), but specifically this course uses [ESLint](https://github.com/Microsoft/vscode-eslint) and [Prettier](https://github.com/prettier/prettier-vscode).
-# advanced-react
