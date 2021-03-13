@@ -43,7 +43,12 @@ const GlobalStyles = createGlobalStyle`
   a:hover {
     text-decoration: underline;
   }
-
+  button {
+    font-family: 'radnika_next', --apple-system,
+    BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    sans-serif;
+  }
 `;
 
 const InnerStyles = styled.div`
