@@ -1,11 +1,20 @@
+import styled, { createGlobalStyle } from 'styled-components';
 import Header from './Header';
+
+
+
+const InnerStyles = styled.div`
+  max-width:var(--maxWidth);
+  margin: 0auto;
+  padding: 2rem;
+`;
 
 export default function Page({ children }) {
   return (
     <div>
+      <GlobalStyles />
       <Header />
-      <h2>Page Component</h2>
-      {children}
+      <InnerStyles>{children}</InnerStyles>
     </div>
   );
 }
