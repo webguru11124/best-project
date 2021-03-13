@@ -36,6 +36,13 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.5rem;
     line-height: 2;
   }
+  a {
+    text-decoration: none;
+    color: var(----black);
+  }
+  a:hover {
+    text-decoration: underline;
+  }
 
 `;
 
